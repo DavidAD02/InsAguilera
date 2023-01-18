@@ -20,4 +20,3 @@ function myAccFunc() {
                 x.previousElementSibling.className.replace(" w3-green", "");
             }
         }
-              
