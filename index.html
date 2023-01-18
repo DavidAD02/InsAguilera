@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/3c9b5bca1b.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <link rel='icon' href='./img/logo.png' type='image/gif' sizes='18x18'> 
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
     <title>Ins Aguilera</title>
 </head>
 <body>
-    <h1>Hola mundo!</h1>
-    <img src="./img/aguila.png" alt="Pues un aguila tio.">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-teal" style="display:none" id="mySidebar">
+      <button class="w3-bar-item w3-large" onclick="w3_close()"> <ion-icon name="close-circle"></ion-icon>  </button>
+      <button href="index.html" class="w3-bar-item ">Pagina Principal</button> 
+      <button class="w3-button w3-bar-item " onclick="myAccFunc()"> Secretaria <i class="w3-right fas fa-angle-double-down"></i> </button>
+        <div id="demoAcc" class="w3-hide w3-white w3-card w3-teal">
+          <a href="horari.html" class="w3-bar-item w3-button">Horari</a>
+          <a href="matricula.html" class="w3-bar-item w3-button">Matriculació</a>
+          <a href="info.html" class="w3-bar-item w3-button">Informació</a>
+        </div>
+      <button href="bibliotecta.html" class="w3-bar-item ">Biblioteca</button>
+      <button href="contacte.html" class="w3-bar-item ">Contacta'ns</button>
+    </div>
+    <div id="main">
+      <div class="w3-green">
+       <button id="openNav" class="botoObrirLlista w3-green w3-xlarge" onclick="w3_open()">&#9776;</button>
+      <header class="w3-green">
+        <br>
+          <div class="container w3-bsr-block">
+              <a href="index.html"><img class="w3-left" style="width: 4%;" src="img/logo.png"></a>
+              <h1 class="w3-center">Institut Aguilera</h1>      
+              <br>
+          </div>
+      </header>
+      <div class="w3-light-green">
+        <h2>Benvinguts a la pagina web de la Institució Academica Normal</h1><br>
+          <h4>Nou any 2022</h3><br>
+            <p>L’any 2021 ha constituït un any singular quant a l’aplicació de l’ordenació dels horaris dels espectacles, activitats i establiments públics. 
+            La crisi provocada per la pandèmia de la covid-19 ha tingut com a conseqüència la suspensió i la restricció horària d’esdeveniments i locals 
+            oberts a la pública concurrència de manera que, fins al mes d’octubre, la 
+            normativa reguladora d’aquells, l’Ordre 129/2020, de 10 de desembre, 
+            no ha tingut vigència en la seua integritat.</p><br>
+            <p>En aquest marc, les circumst              àncies que van motivar l’aprovació 
+            d’aquesta Ordre 129/2020 es mantenen intactes, ja que no hi ha canvis 
+            fàctics ni normatius que l’afecten. D’aquesta manera, aquesta conselleria va optar primerament per donar continuïtat a l’esmentada norma 
+            a través d’una pròrroga que implicara, sense més, una declaració de 
+            manteniment en el temps per a l’exercici 2022 del que és ja previst en 
+            l’Ordre 129/2020 per a 2021.</p><br>
+      </div>
+      <footer class="w3-footer">
+
+      </footer>
 </body>
 </html>
