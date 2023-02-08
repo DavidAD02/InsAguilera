@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel='icon' href='./img/logo.png' type='image/gif' sizes='18x18'>
+    <script src="https://kit.fontawesome.com/3c9b5bca1b.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <title>U.A.P</title>
+</head>
+<body class="w3-light-green">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-teal" style="display:none" id="mySidebar">
+      <button class="w3-bar-item w3-large" onclick="w3_close()"> <i class="w3-left fas fa-arrow-alt-circle-left"></i>  </button>
+      <a href="index.html" class="w3-bar-item w3-button w3-text-white buttonList">Pagina Principal</a> 
+      <button class="w3-button w3-bar-item buttonList" onclick="myAccFunc()"> Secretaria <i class="w3-right fas fa-angle-double-down"></i> </button>
+        <div id="demoAcc" class="w3-hide w3-white w3-card w3-border-black">
+          <a href="horari.html" class="w3-bar-item w3-button w3-light-green w3-text-white">Horari</a>
+          <a href="matricula.html" class="w3-bar-item w3-button w3-light-green w3-text-white">Matriculació</a>
+          <a href="info.html" class="w3-bar-item w3-button w3-light-green w3-text-white">Informació</a>
+        </div>
+      <a href="biblioteca.html" class="w3-bar-item w3-button w3-text-white buttonList">Biblioteca</a>
+      <a href="contacte.html" class="w3-bar-item w3-button w3-text-white buttonList">Contacta'ns</a>
+    </div>
+    <div id="main">
+      <div class="w3-green">
+       <button id="openNav" class="w3-green w3-xlarge w3-left" onclick="w3_open()">&#9776;</button>
+      <header class="w3-green">
+        <br>
+          <div class="w3-container w3-bsr-block">
+              <h1 class="w3-center"><a href="index.html"><img class="w3-center w3-margin-right" style="width: 4%;" src="./img/logo.png"></a>Universitat Aguilera</h1>      
+              <br>
+          </div>
+      </header>
+      <div class="w3-light-green w3-text-white">
+        <img src="./img/tecno.jpg" style="width:100%">
+          <h2 class="w3-center"><b>El caso de ChatGPT como buscador y el asalto de Microsoft a Google</b></h2><br>
+            <p>He tenido la suerte de publicar esta pieza días después del anuncio de que Microsoft integrará ChatGPT en Bing antes de Marzo. Y es que mi primera idea era afirmar que a nadie del sector de las búsquedas se le iba a ocurrir a hacer algo así con un producto todavía tan verde para poner en producción. Está claro que Microsoft - al igual que miles de emprendedores - quiere meter una marcha más en inteligencia artificial antes de que se le adelanten y se habla incluso de integraciones inminentes en Word, Powerpoint, Teams y Outloook y de que aumentarían la inversión en OpenAI con una inyección de 10000 millones de dólares extra</p><br>
+            <p>En el lado de la ofimática veo menos discutible que se avance en eso que podríamos llamar “autocompletar sofisticado apoyado en IA”. La naturaleza de la actividad - estás creando un contenido - encaja bien con el concepto de GPT, una inteligencia artificial generativa al fin y al cabo. De hecho la capacidad de ChatGPT con el código me hace especular con la capacidad de dar el salto en excel que nunca he dado: macros, hojas sofisticadas bien integradas, gráficos de nivel… veremos.</p><br>
+            <p>Es en la búsqueda donde encuentro problemático el asunto. Cuando empezamos a jugar con ChatGPT empezaron a surgir voces señalando que “esto va a matar a Google” y se dicutió mucho el artículo en el NYT que apuntaba que el bot de Open AI suponía “un código rojo” para el buscador más utilizado. A mi sólo me venían razones por las que no veía tan buen encaje </p><br>
+      </div>
+</body>
+<footer class="w3-green">
+  Copyright © by David Aguilera 2022-2023
+</footer>
+</html>

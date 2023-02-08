@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel='icon' href='./img/logo.png' type='image/gif' sizes='18x18'>
+    <script src="https://kit.fontawesome.com/3c9b5bca1b.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <title>U.A.P</title>
+</head>
+<body class="w3-light-green">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-teal" style="display:none" id="mySidebar">
+      <button class="w3-bar-item w3-large" onclick="w3_close()"> <i class="w3-left fas fa-arrow-alt-circle-left"></i>  </button>
+      <a href="index.html" class="w3-bar-item w3-button w3-text-white buttonList">Pagina Principal</a> 
+      <button class="w3-button w3-bar-item buttonList" onclick="myAccFunc()"> Secretaria <i class="w3-right fas fa-angle-double-down"></i> </button>
+        <div id="demoAcc" class="w3-hide w3-white w3-card w3-border-black">
+          <a href="horari.html" class="w3-bar-item w3-button w3-light-green w3-text-white">Horari</a>
+          <a href="matricula.html" class="w3-bar-item w3-button w3-light-green w3-text-white">Matriculació</a>
+          <a href="info.html" class="w3-bar-item w3-button w3-light-green w3-text-white">Informació</a>
+        </div>
+      <a href="biblioteca.html" class="w3-bar-item w3-button w3-text-white buttonList">Biblioteca</a>
+      <a href="contacte.html" class="w3-bar-item w3-button w3-text-white buttonList">Contacta'ns</a>
+    </div>
+    <div id="main">
+      <div class="w3-green">
+       <button id="openNav" class="w3-green w3-xlarge w3-left" onclick="w3_open()">&#9776;</button>
+      <header class="w3-green">
+        <br>
+          <div class="w3-container w3-bsr-block">
+              <h1 class="w3-center"><a href="index.html"><img class="w3-center w3-margin-right" style="width: 4%;" src="./img/logo.png"></a>Universitat Aguilera</h1>      
+              <br>
+          </div>
+      </header>
+      <div class="w3-light-green w3-text-white">
+        <img src="./img/cyborg.jpg" style="width:100%">
+          <h2 class="w3-center"><b>Creadores del mundo que proveéis a la inteligencia artificial, uníos</b></h2><br>
+            <p>Ya he podido jugar un poco con el recién presentado nuevo Bing, apenas con los ejemplos que plantea para guiarte en su uso. Es un tema sobre el que hemos discutido ya por aquí con los riesgos y problemas de la apuesta. Hoy quería poner el énfasis en el terremoto que puede suponer el cambio desde buscadores que ofrecen una lista de enlaces a otros a los que responden directamente preguntas y con los que conversamos. Y para eso nos sirve uno de los primeros ejemplos de Bing.</p><br>
+            <p>En el primer ejemplo que ofrece Bing me ha sorprendido por cómo ha cuidado dos aspectos muy delicados. Uno es que añade trazabilidad hacia las fuentes, es decir, te dice de dónde saca el contenido que el bot de IA basado en GPT te contesta. Lo segundo en este ejemplo que me llama la atención es que no te da la receta completa, sino que sigue siendo necesario visitar a esa fuente. Es algo que cambia en otro ejemplo.</p><br>
+            <p>Aquí la experiencia se parece más a “te contesto a tu pregunta por completo y si quieres ampliar información, para eso te ofrezco las fuentes de donde saco la información”. De hecho es lo que tiene sentido, cambiar la experiencia a “sigues teniendo que pinchar el enlace para la respuesta a tu pregunta, pero de paso te lees un tocho en un chat” no tiene sentido. </p><br>
+            <p>Esto supone que llega un terremoto al ecosistema digital construido alrededor de las búsquedas. Hay mucho proyecto web que vive gracias a que los buscadores indexan (leen) su contenido, con ello pueden ofrecer respuestas a los usuarios, pero a la vez devuelven parte del valor al creador de contenido en forma de tráfico. Un buscador que, llevado al extremo, respondiera a todo directamente a sus usuarios sin llevarle nada de tráfico a las webs que han creado el contenido capturaría todo el valor y no dejaría nada para los creadores de las páginas</p><br>
+            <p></p>
+      </div>
+</body>
+<footer class="w3-green">
+  Copyright © by David Aguilera 2022-2023
+</footer>
+</html>

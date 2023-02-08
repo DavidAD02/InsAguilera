@@ -1,0 +1,22 @@
+<rss version="2.0">
+  <channel>
+    <title>Ins Aguilera</title>
+    <link>https://davidad02.github.io/InsAguilera/</link>
+    <description>Tambe donem noticies sobre informatica!</description>
+    <item>
+       <title>Creadores del mundo que proveéis a la inteligencia artificial, uníos</title>
+       <link>https://davidad02.github.io/InsAguilera/noticia1.html</link>
+       <description>Las grandes innovaciones provocan cambios en la cadena de valor, los que son desplazamos a un eslabón peor son los que claman contra ellas</description>
+    </item>
+    <item>
+       <title>Razones para vivir de espaldas a los grandes fenómenos culturales emergentes en internet</title>
+       <link>https://davidad02.github.io/InsAguilera/noticia2.html</link>
+       <description>También: Por qué cubrir mucho más los premios Feroz que los premios Esland, partir el negocio de publicidad de Google en dos, Facebook resiste</description>
+    </item>
+    <item>
+       <title>El caso de ChatGPT como buscador y el asalto de Microsoft a Google</title>
+       <link>https://davidad02.github.io/InsAguilera/noticia3.html</link>
+       <description>Se antoja raro que para buscar vayamos a utilizar una tecnología pensada y diseñada para generar</description>
+    </item>
+  </channel>
+</rss>
