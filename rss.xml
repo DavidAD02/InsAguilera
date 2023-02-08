@@ -1,0 +1,21 @@
+<rss version="2.0">
+  <channel>
+    <title>Ins Aguilera</title>
+    <link>https://davidad02.github.io/</link>
+    <description>Tambe donem noticies sobre informatica!</description>
+    <item>
+       <title>New Paper Published</title>
+       <link>https://davidad02.github.io/noticia1.html</link>
+       <description>My paper was published in the Example Journal today.</description>
+    </item>
+    <item>
+       <title>Research Project Results</title>
+       <link>https://davidad02.github.io/noticia2.html</link>
+    </item>
+    <item>
+       <title>New Paper Published</title>
+       <link>https://davidad02.github.io/noticia3.html</link>
+       <description>My paper was published in the Example Journal today.</description>
+    </item>
+  </channel>
+</rss>
